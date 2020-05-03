@@ -50,7 +50,7 @@
         $conn->query("UPDATE users SET plan='$pid' WHERE email='$email'");
         $password = "Your Old Password";
     } else {
-        $password = "qwertzuioplkjhgfdsayxcvbnm1234567890";
+        $password = "<>";
         $password = str_shuffle($password);
         $password = strtoupper(substr($password, 0, 10));
         $ePassword = password_hash($password, PASSWORD_BCRYPT);
