@@ -81,7 +81,7 @@
         <b>username</b>: $email<br>
         <b>password</b>: $password<br><br><br><br>
         
-        <a href='http://localhost/precur/login.php'>Click Here To Login</a><br><br>
+        <a href='http://localhost/Recurring-Payments/login.php'>Click Here To Login</a><br><br>
         
         Thanks,signing off<br>
         CVR.
