@@ -65,12 +65,12 @@
     $mail->Host = "smtp.gmail.com";
     $mail->isSMTP();
     $mail->SMTPAuth = true;
-    $mail->Username = "122015021@gmail.com";
-    $mail->Password = 'thunder01';
+    $mail->Username = "";
+    $mail->Password = '';
     $mail->Port = 465; //587
     $mail->SMTPSecure = "ssl";//tls
     $mail->addAddress($email);
-    $mail->setFrom("122015021@gmail.com", "cvrr");
+    $mail->setFrom("", "cvrr");
     $mail->isHTML(true);
     $mail->Subject = "!!YOU subscribed to CVRROCKET!!";
     $mail->Body = "
