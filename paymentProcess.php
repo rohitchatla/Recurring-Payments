@@ -17,8 +17,8 @@
     require_once('stripe-php-6.24.0/init.php');
 
     $stripe = [
-        "secret_key"      => "sk_test_5nknVZuNYvIQFD2B1neo7d7h00ukG9BsiN",
-        "publishable_key" => "pk_test_0JpCUYDFRozrRt4iXNCJuJkd0091xRixmq",
+        "secret_key"      => "<>",
+        "publishable_key" => "<>",
     ];
 
     \Stripe\Stripe::setApiKey($stripe['secret_key']);
